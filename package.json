@@ -1,20 +1,20 @@
 {
   "name": "map-link",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "version": "1.0.0",
+  "description": "Simple Google Maps lat-long picker for Strapi",
   "strapi": {
     "name": "map-link",
-    "description": "Description of Map Link plugin",
+    "description": "Google Maps Lat-Lon Picker",
     "kind": "plugin",
     "displayName": "Map Link"
   },
   "dependencies": {},
   "author": {
-    "name": "A Strapi developer"
+    "name": "Reno Fizaldy"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Reno Fizaldy"
     }
   ],
   "engines": {
