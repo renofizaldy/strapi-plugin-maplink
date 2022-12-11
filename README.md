@@ -2,6 +2,11 @@
 
 This custom-fields plugin built on Strapi **v4.5.3** and using **React Google Maps Api v2.17.0**
 
+Install from `npm`
+```
+npm i @renofizaldy/strapi-plugin-maplink
+```
+
 Add your Google Maps API Key on `STRAPI_ADMIN_GMAPSKEY` in your `.env` if you want Google Maps display without development purpose
 ```
 STRAPI_ADMIN_GMAPSKEY=your_google_maps_api_key
