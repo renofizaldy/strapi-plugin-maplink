@@ -1,6 +1,6 @@
 {
-  "name": "@strapi/map-link",
-  "version": "1.0.0",
+  "name": "@renofizaldy/strapi-plugin-maplink",
+  "version": "1.0.1",
   "description": "Simple Google Maps lat-long picker for Strapi",
   "strapi": {
     "name": "map-link",
