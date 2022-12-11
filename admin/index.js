@@ -19,7 +19,7 @@ export default {
       },
       intlDescription: {
         id: getTrad('map-link.description'),
-        defaultMessage: "Maps coordinate picker",
+        defaultMessage: "Google Maps Lat-Lon Picker",
       },
       icon: PluginIcon,
       components: {
