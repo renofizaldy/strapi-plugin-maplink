@@ -11,16 +11,21 @@ npm install @react-google-maps/api
 Add this to `config/plugins.js` or create a new `plugins.js` file in `config` folder
 ```
 module.exports = {
-	'map-link': {
-		enabled: true,
-		resolve: './src/plugins/map-link'
-	}
+  'map-link': {
+    enabled: true,
+    resolve: './src/plugins/map-link'
+  }
 }
 ```
 
 Add your Google Maps API Key on `STRAPI_ADMIN_GMAPSKEY` in your `.env`
 ```
 STRAPI_ADMIN_GMAPSKEY=your_google_maps_api_key
+```
+
+Example latitude longitude output (string) on databases or API call
+```
+"-41.21222018286648, 174.8906183549883"
 ```
 
 Maplink on Custom-Field 
