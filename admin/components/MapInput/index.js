@@ -14,8 +14,7 @@ const Input = ({
   name,
   onChange,
   required,
-  value,
-  env
+  value
 }) => {
 
   const { formatMessage } = useIntl()
